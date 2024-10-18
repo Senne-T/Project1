@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+nav > a {
+  text-decoration: none;
+}
+
+nav > a > div {
+  width: fit-content;
+  padding: 10px;
+  font-size: 30px;
+  font-size: 2em;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 1%;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 25px;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 20px 15px 15px 15px;
+  border-radius: 25px;
+  font-size: 2em;
+}
+
+.tekst {
+  width: 70%;
+  border-radius: 25px;
+  margin: 0px 15px;
+}
+
+.foto {
+  width: 25%;
+  padding: 25px;
+  margin: 0px 15px;
+  border-radius: 25px;
+}
+
+img {
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+  max-height: 450px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0px 0px 5px 0px;
+  padding: 25px 25px 0px 25px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 0px;
+  padding: 0px 25px 25px 25px;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin: 0px 15px 15px 15px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #000000;
+} 
+
+tr:nth-child(even) {
+    background-color: #9c9c9c;
+}
+
+td, th {
+    padding: 6px;
+    text-align: center;
+}
+
+th {
+    border: 2px solid #000000;
+    font-size: 1.3em;
+}
+
+
+td {
+    font-size: 1.1em;
+}
+
+.breed {
+    width: 13%;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: left;
+    padding-top: 10px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/61582d9dd7.js"
+      crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link rel="manifest" href="img/site.webmanifest">
+  </head>
+  <body>
+    <nav class="KleurOranje">
+      <a href="index.html"><div>Startpagina</div></a>
+      <a href="cv.html"><div>CV</div></a>
+      <a href="ervaring_en_doelen.html"><div>Ervaring &amp; Doeleinden</div></a>
+      <a href="hobbys_en_interesses.html"
+        ><div>Hobby&apos;s &amp; Interesses</div></a
+      >
+      <a href="contact.html"><div>Contact</div></a>
+    </nav>
+    <main class="KleurGrijs">
+      <section class="KleurOranje">
+        <div class="contactformulier">
+          <h1>Contactformulier</h1>
+          <p>Vul onderstaand formulier in om mij te contacteren.</p>
+        </div>
+        <hr />
+        <div class="form">
+          <form action="https://tm-statweb.be/forms.php" method="post">
+            <label for="voornaam">Voornaam:</label>
+            <input
+              type="text"
+              name="voornaam"
+              id="voornaam"
+              placeholder="Voornaam"
+              required />
+
+            <label for="achternaam">Achternaam:</label>
+            <input
+              type="text"
+              name="achternaam"
+              id="achternaam"
+              placeholder="Achternaam"
+              required />
+
+            <label for="email">E-mailadres:</label>
+            <input
+              type="email"
+              name="emailadres"
+              id="email"
+              placeholder="E-mailadres"
+              required />
+
+            <label for="onderwerp">Onderwerp:</label>
+            <input
+              type="text"
+              name="onderwerp"
+              id="onderwerp"
+              placeholder="Onderwerp"
+              required />
+
+            <label for="vraag">Vraag om contact op te nemen:</label>
+            <textarea
+              name="vraag"
+              id="vraag"
+              cols="40"
+              rows="5"
+              placeholder="Typ hier uw vraag..."
+              required></textarea>
+            <label for="verzenden"
+              ><input
+                type="submit"
+                value="Verzenden"
+                id="verzenden"
+                name="verzenden"
+            /></label>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="KleurOranje">Copyright &copy; 2024 Senne Tegenbosch</footer>
+  </body>
+</html>

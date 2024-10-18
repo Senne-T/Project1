@@ -1,0 +1,16 @@
+* {
+  color: #000000;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.KleurOranje {
+  background-color: #f0c77d !important;
+}
+
+.KleurGrijs {
+  background-color: #808080;
+}
